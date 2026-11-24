@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #202B3C;
+    background-color: #F5F5F5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8%;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #d6dee7;   
+    width: 90%;
+    margin: 30px auto 0;
+}
+
+header h2 {
+    font-size: 30px;
+    color: #1E5EA8;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #213553;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #1E5EA8;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #1E5EA8;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 17px;
+}
+
+#inicio {
+    padding: 100px 8%;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #d6dee7;
+    width: 90%;
+    margin: 30px auto 0;
+    
+}
+
+#inicio h1 {
+    font-size: 50px;
+    max-width: 700px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #1E5EA8;
+}
+
+#inicio p{
+    font-size: 21px;
+    max-width: 600px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+#inicio button {
+    background-color: #1E5EA8;
+    color: #FFFFFF;
+    font-size: 18px;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#funciones {
+    padding: 100px 8%;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #d6dee7;
+    width: 90%;
+    margin: 30px auto 0;
+}
+
+#funciones h2,
+#contactos h2 {
+    font-size: 36px;
+    color: #1E5EA8;
+    margin-bottom: 20px;
+}
+
+#funciones p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+#funciones ul {
+    list-style: none;
+    padding-left: 25px;
+    line-height: 2;
+}
+
+#contactos {
+    padding: 70px 8%;
+    background-color: #F5F5F5;
+}
+
+#contactos p {
+    font-size: 17px;
+    line-height: 1.6;
+}
