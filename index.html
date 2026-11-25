@@ -4,70 +4,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Contabler | La empresa en el centro de todo </title>
+    <link rel="icon" type="image/jpg" href="img/contabler-logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;500&display=swap" rel="stylesheet">
+    <title>Contabler Innovación | La empresa en el centro de todo</title>
 </head>
 <body>
-    <header>
-        <h2>Contabler</h2>
-        <nav>
-            <a href = "#vision">Visión</a>
-            <a href = "#funciones">Funciones</a>
-            <a href = "#contactos">Contactos</a>
+    <header class="site-header">
+        <!-- Barra superior hacia las demás páginas de la empresa -->
+        <div class="topbar">
+            <nav class="topbar-nav" aria-label="Plataforma principal de Contabler S.A. de C.V.">
+                <a href="https://contabler.com.co" target="_blank" rel="noopener noreferrer" class="topbar-link">Contabler</a>
+            </nav>
+        </div>
 
-            <button>Ir a mi espacio</button>
-        </nav>
+        <!-- Barra principal con logo y navegación -->
+        <div class="header-main">
+            <img src="img/logo.png" alt="Logo de Contabler" class="logo">
+
+            <nav class="main-nav" aria-label="Navegación principal">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#funciones" class="nav-link">Funciones</a>
+                <button class="nav-button nav-button--outline">Iniciar sesión</button>
+                <button class="nav-button">Registrarse</button>
+            </nav>
+        </div>
     </header>
 
     <main>
+        <section id="inicio">
+            <div class="hero-overlay">
+                <h1>Todos tus procesos contables, en un solo lugar.</h1>
+                <p>
+                    Una forma más clara de trabajar. Centralizar tus procesos y mantener la información de tu empresa organizada
+                </p>
+                <a href="#vision" class="hero-btn">Explorar la visión 360</a>
+            </div>
+        </section>
 
-    <section id="inicio">
+        <section id="vision">
+            <div class="vision-grid">
+                <ul class="vision-lista">
+                    <li class="item">
+                        <span class="num">01</span>
+                        <div class="info">
+                            <strong>Gerencia de contabilidades</strong>
+                            <span>Control integral y contable continuo.</span>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <span class="num">02</span>
+                        <div class="info">
+                            <strong>Auditoría</strong>
+                            <span>Verificación objetiva y confianza en las cifras.</span>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <span class="num">03</span>
+                        <div class="info">
+                            <strong>Revisoría Fiscal</strong>
+                            <span>Cumplimiento normativo y vigilancia empresarial.</span>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <span class="num">04</span>
+                        <div class="info">
+                            <strong>Asesoría Tributaria</strong>
+                            <span>Planeación fiscal clara y ajustada a la ley.</span>
+                        </div>
+                    </li>
+                </ul>
 
-        <h1>Todos tus procesos contables, en un solo lugar.</h1>
-        <p>
-            Una forma más clara de trabajar. Centraliza tus procesos y mantén la información de tu empresa organizada
-        </p>
+                <div class="vision-texto">
+                    <h2>Una mirada integral a tu empresa</h2>
+                    <p>
+                        Contabler une la trayectoria de la firma con su plataforma digital para organizar la gestión empresarial conectando empresas, personas, procesos y entregables en un mismo entorno de trabajo.
+                    </p>
+            </div>
+            </div>
+        </section>
 
-        <button>Explorar la vision 360  ↓</button>
+        <section id="funciones">
+            <div class="funciones-header">
+                <h2>Todo lo que necesitas para tus gestiones contables</h2>
+                <p>
+                    Optimiza tu gestion diaria sin contratiempos. Contabler te ofrece una plataforma integral para supervisar movimientos, automatizar registros y mantener tus finanzas siempre actualizadas, todo desde un panel único y centralizado.
+                </p>
+            </div>
 
-    </section>
+            <div class="funciones-filas">
+                <div class="fila">
+                    <h3>Gestion de facturas y pagos</h3>
+                    <p>
+                        Emisión, recepción y seguimiento de cuentas por cobrar y pagar en un mismo flujo.
+                    </p>
+                </div>
 
-    <section id="vision">
+                <div class="fila">
+                    <h3>Control de gastos y presupuestos</h3>
+                    <p>
+                        Seguimiento de egresos por área para evitar desviaciones y cuidar la liquidez de la empresa.
+                    </p>
+                </div>
 
-        <h2>Visión 360</h2>
-        <p>
-            Contabler es una plataforma que permite a las empresas centralizar sus procesos contables y financieros en un solo lugar. 
-            Podrás gestionar tus finanzas de manera más eficiente y tomar decisiones informadas para el crecimiento de tu negocio.
-        </p>
+                <div class="fila">
+                    <h3>Generación de informes financieros</h3>
+                    <p>
+                        Reportes y balances listos para el análisis continuo, la gestión interna y la revisión.
+                    </p>
+                </div>
 
-        <img src="vision.png" alt="Imagen de la visión 360 de Contabler">
-    </section>
+                <div class="fila">
+                    <h3>Integración con otras herramientas contables</h3>
+                    <p>
+                        Conexión con otras soluciones y flujos de trabajo de la empresa sin duplicar registros.
+                    </p>
+                </div>
+            </div>
+ 
 
-    <section id="funciones">
 
-        <h2>Todo lo que necesitas para tus gestiones contables</h2>
-        <p>
-            Contabler es una plataforma que permite a las empresas centralizar sus procesos contables y financieros en un solo lugar. 
-            Podrás gestionar tus finanzas de manera más eficiente y tomar decisiones informadas para el crecimiento de tu negocio.
-        </p>
+        </section>
 
-        <ul>
-            <li>Gestión de facturas y pagos</li>
-            <li>Control de gastos y presupuestos</li>
-            <li>Generación de reportes financieros</li>
-            <li>Integración con otras herramientas contables</li>
-        </ul>
-    </section>
 
-    <section id="contactos">
 
-        <h2>Contactos</h2>
-        <p>
-            Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos. Nuestro equipo estará encantado de ayudarte.
-        </p>
-
-    </section>
-   
+        </section>
     </main>
-
 </body>
 </html>
