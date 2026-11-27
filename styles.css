@@ -50,7 +50,7 @@ body {
     text-underline-offset: 4px;
 }
 
-/* Barra principal con tu ancho y línea divisoria originales */
+
 .header-main {
     display: flex;
     justify-content: space-between;
