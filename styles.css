@@ -399,7 +399,7 @@ body {
     margin-bottom: 14px;
     background-color: #ebf4ff;
     padding: 8px 12px;
-    border-radius: 6px;
+    border-radius: 1px;
 }
 
 .footer-marca p {
@@ -427,7 +427,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     color: #dbe3ec;
-    word-break: break-word;
+    
 }
 
 .footer-bloque a {
