@@ -39,6 +39,8 @@ body {
     font-weight: 500;
     opacity: 0.92;
     transition: opacity 0.2s ease;
+    margin-right: 30px;
+    
 }
 
 .topbar-link:hover,
@@ -372,6 +374,79 @@ body {
     font-size: 18px;
     line-height: 1.5;
     color: #526071;
+}
+
+#contacto {
+    background-color: #032852;
+    color: #F5F5F5;
+    width: 90%;
+    margin: 40px auto 30px;
+    padding: 56px 8% 28px;
+    border-radius: 4px;
+}
+
+.footer-contenedor {
+    display: grid;
+    grid-template-columns: 1.2fr 1.5fr;
+    gap: 48px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid rgba(214, 222, 231, 0.22);
+}
+
+.footer-marca img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 14px;
+    background-color: #ebf4ff;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.footer-marca p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #dbe3ec;
+    max-width: 340px;
+}
+
+.footer-info {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 32px;
+}
+
+.footer-bloque h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer-bloque p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #dbe3ec;
+    word-break: break-word;
+}
+
+.footer-bloque a {
+    color: #dbe3ec;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-bloque a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.footer-derechos {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #98b3ce;
 }
 
 @media (max-width: 768px) {
